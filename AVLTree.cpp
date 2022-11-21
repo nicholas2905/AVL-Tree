@@ -8,10 +8,10 @@ public:
 	// value stored for each node
 	int value;
 	// pointer to the left node
-    Node * left;
-    // pointer to the right node
-    Node * right;
-    int height;
+   	 Node * left;
+    	// pointer to the right node
+    	Node * right;
+    	int height;
 };
 class AVLTree
 {
@@ -164,7 +164,7 @@ Node * AVLTree::insert(Node * root, int data)
 		return leftRotate(root);
 	}
 
-	// returning the root.
+	// returning the root
 	return root;
 }
 
